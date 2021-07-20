@@ -6,7 +6,7 @@ function makePlayer(formData) {
         renoun: 0,
         completed: {}
     };
-    console.log(player);
+    
     return player;
 }
 

@@ -2,9 +2,6 @@ import { savePlayer } from '../data/api.js';
 import makePlayer from './make-user.js';
 
 const playerSignUp = document.getElementById('player-sign-up');
-console.log(playerSignUp);
-const inputs = document.querySelectorAll('inputs');
-console.log(inputs.value);
 
 playerSignUp.addEventListener('submit', function(event) {
     event.preventDefault();
@@ -12,5 +9,5 @@ playerSignUp.addEventListener('submit', function(event) {
     const player = makePlayer(formData);
     savePlayer(player);
     window.location = 'map';
-});
 
+});

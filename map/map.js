@@ -1,11 +1,15 @@
 import fights from '../data/adventure-data.js';
 import { getPlayer } from '../data/api.js';
 import { hasBeatAllFighters } from './hasbeatallfighters.js';
+import { makeProfile } from '../results/results.js';
 
 const fightList = document.getElementById('fight-list');
 
 
 const user = getPlayer();
+makeProfile();
+
+
 
 if (user.hp <= 0 || hasBeatAllFighters(user)){
     window.location.replace('../results');

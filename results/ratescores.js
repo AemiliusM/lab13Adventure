@@ -2,7 +2,7 @@ export function rateHP(hp) {
     if (hp <= 0) {
         return 'dead';
     }
-    if (hp < 80) {
+    if (hp <= 80) {
         return 'scarred';
     }
     if (hp <= 30) {

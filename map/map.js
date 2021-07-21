@@ -1,8 +1,7 @@
 import fights from '../data/adventure-data.js';
 import { getPlayer } from '../data/api.js';
 import { hasBeatAllFighters } from './hasbeatallfighters.js';
-import { makeProfile } from '../results/results.js';
-
+import { makeProfile } from '../results/makeprofile.js';
 const fightList = document.getElementById('fight-list');
 
 

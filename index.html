@@ -8,7 +8,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles/reset.css">
     <link rel="stylesheet" href="./styles/style.css">
-    <link rel="stylesheet" href="./styles/home.css">
+    <link rel="stylesheet" href="./home/home.css">
     <title>Document</title>
 </head>
 
@@ -27,21 +27,26 @@
                 <legend>Choose Your Brawler:</legend>
                 <p id="avatars">
                     <label >
-                        <input type="radio" name="monster" required value="Kong">
+                        <span>Kong</span>
+                    <input type="radio" name="monster" required value="Kong">
                         <img src="./assets/fights/Kongplayer.jpeg" alt="Kong">
+                       
                     </label>
 
                     <label>
+                        <span>Paul-Bunyon</span>
                         <input type="radio" name="monster" required value="Paulbunion">
                         <img src="./assets/fights/Paulbplayer.jpeg" alt="Paul-Bunyon">
                     </label>
 
                     <label>
+                        <span>Sentinel</span>
                         <input type="radio" name="monster" required value="Sentinal">
                         <img src="./assets/fights/Sentinelplayer.png" alt="Sentinal">
                     </label>
 
                     <label>
+                        <span>Dragon</span>
                         <input type="radio" name="monster" required value="Dragon">
                         <img src="./assets/fights/Dragonplayer.jpeg" alt="Dragon">
                 </p>
@@ -49,9 +54,6 @@
             <button type="submit">Begin Journey!</button>
         </form>
     </main>
-    <footer>
-       
-    </footer>
 
     <script type="module" src="./home/home.js"></script>
     <script type="module" src="./app.js"></script>

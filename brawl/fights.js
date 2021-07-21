@@ -8,7 +8,7 @@ const fightTitle = document.getElementById('fight-title');
 const fightImage = document.getElementById('fight-image');
 const fightDesc = document.getElementById('fight-description');
 const choices = document.getElementById('choices');
-const fightData = findById(fights, searchParams.get('fightId'));
+export const fightData = findById(fights, searchParams.get('fightId'));
 fightTitle.textContent = fightData.title;
 fightImage.src = `../assets/fights/${fightData.image}`;
 fightDesc.textContent = fightData.description;
@@ -39,7 +39,7 @@ fightForm.addEventListener('submit', (e) => {
 
     user.renoun += choiceData.renoun;
     user.hp += choiceData.hp;
-    user.completed[fights.id] = true;
+    user.completed[fightData.id] = true;
     savePlayer(user);
 
     const backLink = document.getElementById('back-link');

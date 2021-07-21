@@ -12,21 +12,21 @@ const KongFight = {
         Kong: [{
             id: 'punch',
             description: `You wind up for a massive Kong punch!`,
-            result: ``,
-            hp: 1,
-            renoun: 1,
+            result: `The massive Gorilla did not expect the punch and is knocked out! Your renoun grows, may others tremble`,
+            hp: 0,
+            renoun: 5,
         }, {
             id: 'throw',
             description: `when the enimy is close you reach out for a grapple `,
-            result: ``,
-            hp: 1,
-            renoun: 1,
+            result: `You mis-time your grab, and the Gorilla smashes into you. You lose a few teeth and are sent packing -50hp`,
+            hp: -50,
+            renoun: 0,
         }, {
             id: 'retreat',
-            description: `you see the terrifying enemy and turn to run`,
-            result: ``,
-            hp: 1,
-            renoun: 1,
+            description: `you see the terrifying Gorilla and turn to run`,
+            result: `You escape but while running through the jungle you are called a coward by all.`,
+            hp: 0,
+            renoun: -2,
             
     
         }],
@@ -109,21 +109,21 @@ const DragonFight = {
         Kong: [{
             id: 'punch',
             description: `You wind up for a massive Kong punch!`,
-            result: ``,
-            hp: 1,
-            renoun: 1,
+            result: `The Dragon soars just out of reach and you miss, the Dragon punishes you for this by spewing fire down your back. You run and hide until the Dragon leaves`,
+            hp: -50,
+            renoun: 0,
         }, {
             id: 'throw',
             description: `when the enemy is close you reach out for a grapple `,
-            result: ``,
-            hp: 1,
-            renoun: 1,
+            result: `You hold fast on the Dragons wings as it tries to swipe at your head. You pull with all your might and dislocate one of the wings. The Dragon cries in pain and passes out`,
+            hp: 0,
+            renoun: 5,
         }, {
             id: 'retreat',
-            description: `you see the terrifying enemy and turn to run`,
-            result: ``,
-            hp: 1,
-            renoun: 1,
+            description: `you see the terrifying Dragon and turn to run`,
+            result: `As you are fleeing, the souls of the dead laugh at you.`,
+            hp: 0,
+            renoun: -2,
             
     
         }],
@@ -150,23 +150,22 @@ const DragonFight = {
         }],
         Sentinal: [{
             id: 'beam',
-            description: ``,
+            description: `you charge your energy beam`,
             result: ``,
             hp: 1,
             renoun: 1,
         }, {
             id: 'extendo',
-            description: ``,
+            description: `your motors start whirring powering up extendo punch`,
             result: ``,
             hp: 1,
             renoun: 1,
         }, {
             id: 'fly',
-            description: ``,
+            description: `you see the enemy is tough and start charge your thrusters to fly`,
             result: ``,
             hp: 1,
             renoun: 1,
-            
     
         }],
         Paulbunion: [{
@@ -206,21 +205,21 @@ const SentinalFight = {
         Kong: [{
             id: 'punch',
             description: `You wind up for a massive Kong punch!`,
-            result: ``,
-            hp: 1,
-            renoun: 1,
+            result: `The Robot tries to block your fist, but destroys his arms. You quickly finish it off with another punch to the head. -5hp for hitting metal`,
+            hp: -5,
+            renoun: 5,
         }, {
             id: 'throw',
             description: `when the enimy is close you reach out for a grapple `,
-            result: ``,
-            hp: 1,
-            renoun: 1,
+            result: `You try to grab the Robot but your hands keep slipping, as you try to re-grasp, it fires a beam into your chest. You get launched into the rubble and awake hours later. -50hp`,
+            hp: -50,
+            renoun: 0,
         }, {
             id: 'retreat',
-            description: `you see the terrifying enemy and turn to run`,
-            result: ``,
-            hp: 1,
-            renoun: 1,
+            description: `you see the terrifying Robot and turn to run`,
+            result: `As you are running you trip several times, each time the Robot laughing louder and louder. -5hp for tripping`,
+            hp: -5,
+            renoun: -2,
         
 
         }],
@@ -247,19 +246,19 @@ const SentinalFight = {
         }],
         Sentinal: [{
             id: 'beam',
-            description: `dhdndj`,
+            description: `you charge your energy beam`,
             result: ``,
             hp: 1,
             renoun: 1,
         }, {
             id: 'extendo',
-            description: `ddmdk`,
+            description: `your motors start whirring powering up extendo punch`,
             result: ``,
             hp: 1,
             renoun: 1,
         }, {
             id: 'fly',
-            description: `kdmdmdm`,
+            description: `you see the enemy is tough and start charge your thrusters to fly`,
             result: ``,
             hp: 1,
             renoun: 1,
@@ -344,19 +343,19 @@ const PaulBunionFight = {
         }],
         Sentinal: [{
             id: 'beam',
-            description: ``,
+            description: `you charge your energy beam`,
             result: ``,
             hp: 1,
             renoun: 1,
         }, {
             id: 'extendo',
-            description: ``,
+            description: `your motors start whirring powering up extendo punch`,
             result: ``,
             hp: 1,
             renoun: 1,
         }, {
             id: 'fly',
-            description: ``,
+            description: `you see the enemy is tough and start charge your thrusters to fly`,
             result: ``,
             hp: 1,
             renoun: 1,

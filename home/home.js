@@ -9,6 +9,6 @@ playerSignUp.addEventListener('submit', e => {
     const formData = new FormData(playerSignUp);
     const player = makePlayer(formData);
     savePlayer(player);
-    window.location.replace('../map/');
+    window.location = '../map/';
 
 });

@@ -309,14 +309,14 @@ const PaulBunionFight = {
             id: 'throw',
             description: `when the enimy is close you reach out for a grapple `,
             result: `You hold your ground and clash with the bull holding its horns as it thrashes around. While wrangling the bull, a giant approaches from behind and swings his axe grazing your side. You immeaditatetly throw off the bull and take another hit to your sholder. Just as fast the giant kicks you and send you into some brush. You manage to escape but are followed through the forest until you leave. -70hp `,
-            hp: 1,
-            renoun: 1,
+            hp: -70,
+            renoun: 0,
         }, {
             id: 'retreat',
             description: `you see the terrifying bull and turn to run`,
             result: `You start to run but the bull is faster. It catches you in the back and rams you into a tree. After throwing you to the ground it trots off feeling victorious. You leave the forest after laying there for awhile. -60hp`,
             hp: 1,
-            renoun: 1,
+            renoun: -4,
             
     
         }],

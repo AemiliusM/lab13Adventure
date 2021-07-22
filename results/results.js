@@ -23,7 +23,7 @@ const renounMessage = renounMessages[renounResult];
 let story = 'After your Battles, ';
 story += user.name + 'the' + user.type + ', ';
 story += hpMessages + ' and ' + renounMessage + '.';
-console.log(hpMessages);
+
 
 storyDisplay.textContent = story;
 

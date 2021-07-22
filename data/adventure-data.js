@@ -33,21 +33,21 @@ const KongFight = {
         Dragon: [{
             id: 'tailwhip',
             description: `you wind up your tail for a strike`,
-            result: ``,
-            hp: 1,
-            renoun: 1,
+            result: `When the Gorilla is within reach, you thrust your tail and strike it through the chest and then throw its limp body off to the side. `,
+            hp: 0,
+            renoun: 5,
         }, {
             id: 'fire',
             description: `you take a deep breath ready to blast flames`,
-            result: ``,
-            hp: 1,
-            renoun: 1,
+            result: `When the Gorilla is within reach, you let out a strong blaze from your mouth scorching the ground in front of you. You notice too late, the Gorilla leaped over your flames and smashes your head into the ground. You awake hours later missing teeth and confused. `,
+            hp: -45,
+            renoun: 0,
         }, {
             id: 'fly',
             description: `you notice the enemy is too strong, you start flapping to fly`,
-            result: ``,
-            hp: 1,
-            renoun: 1,
+            result: `You assend off the ground and you notice something flying toward you. It is a huge log! You quickly evade and fly away hearing a massive roar as you reach the coast, as if it were mocking you. `,
+            hp: 0,
+            renoun: -3,
             
     
         }],
@@ -130,21 +130,21 @@ const DragonFight = {
         Dragon: [{
             id: 'tailwhip',
             description: `you wind up your tail for a strike`,
-            result: ``,
-            hp: 1,
-            renoun: 1,
+            result: `As the Dragon swoops by, you thrust your tail for its heart. You miss and while reeling back your tail, the Dragon catches your wing with a massive slash of its claws. You make a run for it but take a fire ball to the side and are sent off the edge of a cliff.   -80hp `,
+            hp: -80,
+            renoun: 0,
         }, {
             id: 'fire',
             description: `you take a deep breath ready to blast flames`,
-            result: ``,
-            hp: 1,
-            renoun: 1,
+            result: `As the Dragon swoops down, it lets out a huge ball of fire! You send your own blast in return, expelled like a rail gun, it consumes the other blast and engulfing the Dragon in a magma scatter shot. The Dragon plummets to the ground, quiet.  `,
+            hp: 0,
+            renoun: 5,
         }, {
             id: 'fly',
             description: `you notice the enemy is too strong, you start flapping to fly`,
-            result: ``,
-            hp: 1,
-            renoun: 1,
+            result: `You soar into the air and just before you reach the clouds, a ball of fire rages past you misting the clouds above. You see the Dragon with smoke plumming from its mouth. You fly faster and escape before it can attack again. `,
+            hp: 0,
+            renoun: -2,
             
     
         }],
@@ -226,21 +226,21 @@ const SentinalFight = {
         Dragon: [{
             id: 'tailwhip',
             description: `you wind up your tail for a strike`,
-            result: ``,
-            hp: 1,
-            renoun: 1,
+            result: `Your thrust your tail at the Robot but its armor is too thick and your tail bounces off. The Robot blasts a beam from its mouth, knocking you through 2 buildings. -45hp `,
+            hp: -45,
+            renoun: 0,
         }, {
             id: 'fire',
             description: `you take a deep breath ready to blast flames`,
-            result: ``,
-            hp: 1,
-            renoun: 1,
+            result: `You release an infernal blast and melt the Robot down to its core. `,
+            hp: 0,
+            renoun: 5,
         }, {
             id: 'fly',
             description: `you notice the enemy is too strong, you start flapping to fly`,
-            result: ``,
-            hp: 1,
-            renoun: 1,
+            result: `As you asend an energy beam knocks you out of the sky and you crash outside the city. -30hp `,
+            hp: -30,
+            renoun: 0,
         
 
         }],

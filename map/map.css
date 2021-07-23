@@ -1,0 +1,6 @@
+#fight-list {
+    display: flex;
+    flex-direction: column;
+    font-size: larger;
+}
+

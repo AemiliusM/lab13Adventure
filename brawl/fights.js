@@ -1,6 +1,7 @@
 import fights from '../data/adventure-data.js';
 import findById from '../app.js';
 import { getPlayer, savePlayer } from '../data/api.js';
+import { makeProfile } from '../results/makeprofile.js';
 
 const searchParams = new URLSearchParams(window.location.search);
 
@@ -16,6 +17,7 @@ fightDesc.textContent = fightData.description;
 const user = getPlayer();
 const userChar = user.type;
 const fightArry = fightData.choices[userChar];
+makeProfile();
 
 for (let choice of fightArry){
     const label = document.createElement('label');

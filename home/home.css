@@ -4,4 +4,33 @@ img{
 }
 .hidden {
     display: none;
+    
+}
+input[type="radio"] +img {
+    opacity: 37%;
+    
+}
+
+input[type="radio"]:checked + img {
+    opacity: 100%;
+    margin-top: 70%;
+    border: solid black 2px;
+    animation: pulse 1s  ease-in-out;
+}
+
+
+p {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+
+    
+}
+main {
+    align-items: start;
+}
+button {
+    font-size: large;
+
+
 }

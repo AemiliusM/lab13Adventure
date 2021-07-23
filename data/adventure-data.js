@@ -54,42 +54,42 @@ const KongFight = {
         Sentinal: [{
             id: 'beam',
             description: `you charge your energy beam`,
-            result: ``,
-            hp: 1,
+            result: `When the Gorilla is in range you fire your beam but the Gorilla is too quick and dodges! You quickly charge another blast but the Gorilla has closed the distance. It leaps on to your back and takes a massive bite from your neck. The beam goes off and blasts the ground sending you both flying. -60hp`,
+            hp: -60,
             renoun: 1,
         }, {
             id: 'extendo',
             description: `your motors start whirring powering up extendo punch`,
-            result: ``,
-            hp: 1,
-            renoun: 1,
+            result: `When the Gorilla gets close you fire off your punch! The Gorilla dodges, but your arm snakes back and grabs his leg from behind. You start whipping the Gorilla around smashing trees and rocks until it is lifeless.`,
+            hp: 0,
+            renoun: 5,
         }, {
             id: 'fly',
             description: `you see the enemy is tough and start charge your thrusters to fly`,
-            result: ``,
-            hp: 1,
-            renoun: 1,
+            result: `You assend off the ground and you notice something flying toward you. It is a huge log! You quickly evade and fly away hearing a massive roar as you reach the coast, as if it were mocking you.`,
+            hp: 0,
+            renoun: -2,
             
     
         }],
         Paulbunion: [{
             id: 'axe',
             description: `you strike a pose ready to swing your axe`,
-            result: ``,
-            hp: 1,
-            renoun: 1,
+            result: `Your swing your axe as the Gorilla steps into reach. The Gorilla dodges the axe and the head breaks off on the ground. You stand there stunned, and the Gorilla blasts you into the trees. -45hp`,
+            hp: -45,
+            renoun: 0,
         }, {
             id: 'bull',
             description: `You call Blue!`,
-            result: `Your bull companion comes rushing to your aid`,
-            hp: 1,
-            renoun: 1,
+            result: `Your bull companion comes rushing to your aid, charging the Gorilla. Blue spears  the Gorilla and you finish it off with your axe.`,
+            hp: 0,
+            renoun: 5,
         }, {
             id: 'flee',
-            description: `You see the bull coming at you and turn to run. `,
-            result: `the bull catches you and spears you`,
-            hp: 1,
-            renoun: 1,
+            description: `You see the Gorilla coming at you and turn to run. `,
+            result: `the Gorilla catches you and beats you into the ground -45hp`,
+            hp: -45,
+            renoun: -4,
             
     
         }],
@@ -104,7 +104,7 @@ const DragonFight = {
     },
     image: 'dragon.jpeg',
     description:`
-        You have made your way to The Dragon Den and in the distance you see and Dragon soar into the sky! Suddenly the Dragon breaks through the clouds and is above you. Defend Yourself! `,
+        You have made your way to The Dragon Den and in the distance you see a Dragon soar into the sky! Moments later the Dragon breaks through the clouds and is above you. Defend Yourself! `,
     choices:{ 
         Kong: [{
             id: 'punch',
@@ -151,41 +151,41 @@ const DragonFight = {
         Sentinal: [{
             id: 'beam',
             description: `you charge your energy beam`,
-            result: ``,
-            hp: 1,
-            renoun: 1,
+            result: `When the beam is ready you wait for the dragon to get close and fire. You shred its wings and it comes crashing down. You finish it off with one more blast. `,
+            hp: 0,
+            renoun: 5,
         }, {
             id: 'extendo',
             description: `your motors start whirring powering up extendo punch`,
-            result: ``,
-            hp: 1,
-            renoun: 1,
+            result: `When the Dragon is in range, you fire off your punch. The Dragon continously dodges your snake like arm until it is tied in knots. While you cannot move the dragon swoops in and grabs you. Asending to the clouds before dropping you, the Dragon roars. -60hp`,
+            hp: -60,
+            renoun: 0,
         }, {
             id: 'fly',
             description: `you see the enemy is tough and start charge your thrusters to fly`,
-            result: ``,
-            hp: 1,
-            renoun: 1,
+            result: `You try to fly away but the dragon blasts one of your thrusters and you crash into a mountian -40hp`,
+            hp: -40,
+            renoun: -3,
     
         }],
         Paulbunion: [{
             id: 'axe',
             description: `you strike a pose ready to swing your axe`,
-            result: ``,
-            hp: 1,
+            result: `The Dragon soars just out of reach and you miss, the Dragon punishes you for this by spewing fire down your back. You run and hide until the Dragon leaves`,
+            hp: -50,
             renoun: 1,
         }, {
             id: 'bull',
             description: `You call Blue!`,
-            result: `Your bull companion comes rushing to your aid`,
-            hp: 1,
-            renoun: 1,
+            result: `Your bull companion comes rushing to your aid! While the Dragon is busy with Blue, you launch your axe and it hits the dragon in the chest. The Dragon tries to breath fire, but the pressure is too much and it spews from the axe wound burning its insides.`,
+            hp: 0,
+            renoun: 5,
         }, {
             id: 'flee',
-            description: `You see the bull coming at you and turn to run. `,
-            result: `the bull catches you and spears you`,
-            hp: 1,
-            renoun: 1,
+            description: `You see the Dragon coming at you and turn to run. `,
+            result: `The Dragon sees you trying to escape and rains down fire, burning your feet as you run. -30hp `,
+            hp: -30,
+            renoun: -3,
             
     
         }],
@@ -247,21 +247,21 @@ const SentinalFight = {
         Sentinal: [{
             id: 'beam',
             description: `you charge your energy beam`,
-            result: ``,
+            result: `You fire off the beam at the Robot. the Robot dodges and quickly smashes you through a building behind you. It charges its own beam and blasts you further into the rubble. -45hp `,
             hp: 1,
             renoun: 1,
         }, {
             id: 'extendo',
             description: `your motors start whirring powering up extendo punch`,
-            result: ``,
-            hp: 1,
-            renoun: 1,
+            result: `You start firing of punches left and right, blasting pieces of metal off the Robot until it is left with just its legs.`,
+            hp: 0,
+            renoun: 5,
         }, {
             id: 'fly',
             description: `you see the enemy is tough and start charge your thrusters to fly`,
-            result: ``,
-            hp: 1,
-            renoun: 1,
+            result: `You blast off but as you are leaving, one of your thrusters is shot and you crash into 3 buildings. -30hp`,
+            hp: -30,
+            renoun: -3,
         
 
         }],
@@ -323,28 +323,28 @@ const PaulBunionFight = {
         Dragon: [{
             id: 'tailwhip',
             description: `you wind up your tail for a strike`,
-            result: ``,
-            hp: 1,
-            renoun: 1,
+            result: `As the bull draws near you thrust your tail at the bull's head. Your tail breaks one of the horns but does not stop the bull. The bull spears you and knocks you to the ground. While pinned a Giant with an axe appears and starts charging. You are able to free yourself and escape but suffer massive bleading. -48hp`,
+            hp: -48,
+            renoun: 0,
         }, {
             id: 'fire',
             description: `you take a deep breath ready to blast flames`,
-            result: ``,
-            hp: 1,
-            renoun: 1,
+            result: `As the Bull draws near you expell a massive ball of fire, roasting the bull alive. As the bull cries out, a Giant appears with an axe in hand. He starts charging you as you draw in another breath. While the Giant has its axe overhead, you spit out a super hot flameball that melts the axe head encasing the Giants head.`,
+            hp: 0,
+            renoun: 7,
         }, {
             id: 'fly',
             description: `you notice the enemy is too strong, you start flapping to fly`,
-            result: ``,
-            hp: 1,
-            renoun: 1,
+            result: `You start to rise and the Bull can no longer reach you. As you reach the tree tops an axe comes slicing through the air! You dodge barely, and hear the Giant roaring "Get Back Here!"`,
+            hp: 0,
+            renoun: -5,
             
     
         }],
         Sentinal: [{
             id: 'beam',
             description: `you charge your energy beam`,
-            result: ``,
+            result: `When the Bull is in range you fire your beam at the Bull crippling its leg! You quickly charge another blast but a Giant has appeared and swings an axe. The axe lands in your back. The beam goes off and blasts the ground sending you both flying.`,
             hp: 1,
             renoun: 1,
         }, {

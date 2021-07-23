@@ -23,35 +23,35 @@
                 <label for="name">Your Monster Name:</label>
                 <input type="text" name="name" id="name" required>
             </p>
+            <button type="submit">Begin Journey!</button>
             <fieldset>
                 <legend>Choose Your Brawler:</legend>
                 <p id="avatars">
                     <label >
-                        <span>Kong</span>
-                    <input type="radio" name="monster" required value="Kong">
+                        <input type="radio" name="monster" class="hidden" required value="Kong">
                         <img id="monsterpic" src="./assets/fights/Kongplayer.jpeg" alt="Kong">
-                       
+                        <span>Kong</span>
                     </label>
 
                     <label>
-                        <span>Paul-Bunyon</span>
-                        <input type="radio" name="monster" required value="Paulbunion">
+                        <input type="radio" class="hidden" name="monster" required value="Paulbunion">
                         <img src="./assets/fights/Paulbplayer.jpeg" alt="Paul-Bunyon">
+                        <span>Paul-Bunyon</span>
                     </label>
 
                     <label>
-                        <span>Sentinel</span>
-                        <input type="radio" name="monster" required value="Sentinal">
+                        <input type="radio" class="hidden" name="monster" required value="Sentinal">
                         <img src="./assets/fights/Sentinelplayer.png" alt="Sentinal">
+                        <span>Sentinel</span>
                     </label>
 
                     <label>
-                        <span>Dragon</span>
-                        <input type="radio" name="monster" required value="Dragon">
+                        <input type="radio" class="hidden" name="monster" required value="Dragon">
                         <img src="./assets/fights/Dragonplayer.jpeg" alt="Dragon">
+                        <span>Dragon</span>
+                    </label>
                 </p>
             </fieldset>
-            <button type="submit">Begin Journey!</button>
         </form>
     </main>
 
